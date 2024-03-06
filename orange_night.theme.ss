@@ -1,0 +1,72 @@
+/**
+ * @name Orange Night
+ * @author playerofceleste
+ * @description A new look to discord
+ * @version v1.0
+*/
+
+@import url("https://nyri4.github.io/Couve/betterdiscord/app.css");
+
+/* Settings */
+:root {
+  --version: "1.0";
+
+  /* Colors */
+  --main-color: #f9a153;
+
+  /* Borders */
+  --avatar-radius: 8px;
+}
+
+/* Dark/Light vars */
+.theme-dark {
+  /* BGs */
+  --background-primary: #343743;
+  --background-secondary: #292b35;
+  --background-secondary-alt: #21283a;
+  --background-secondary-alt-alt: #2a2b3b;
+  --background-tertiary: #141c3b;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --input-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0003;
+
+  /* Cards */
+  --card: #3c3f52;
+
+  /* Other stuff */
+  --textcolor: #fef;
+  --epicshadow1: #fff3;
+
+  /* Font */
+  --font-display: var(--font-primary) !important;
+}
+
+.theme-light {
+  /* BGs */
+  --background-primary: #fafafa;
+  --background-secondary: #f7f7f7;
+  --background-secondary-alt: #fff;
+  --background-secondary-alt-alt: #eee;
+  --background-tertiary: #fff;
+
+  --deprecated-store-bg: var(--background-primary);
+  --background-floating: var(--background-secondary);
+  --background-mobile-primary: var(--background-primary);
+  --activity-card-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+
+  --colortransparency: #0001;
+
+  /* Cards */
+  --card: #8e8e8e;
+
+  /* Other stuff */
+  --textcolor: #000;
+  --epicshadow1: #0003;
+}
